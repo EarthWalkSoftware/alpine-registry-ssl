@@ -35,7 +35,7 @@
 #               -e REG_DOMAIN=internet.lan:5000 \
 #               -v /home/$HOME/.certs:/crts \
 #               -v /etc/docker/certs.d:/docker \
-#               regssl
+#    earthwalksoftware/docker-registry-ssl
 #
 # =========================================================================
 FROM nimmis/alpine-micro:latest
