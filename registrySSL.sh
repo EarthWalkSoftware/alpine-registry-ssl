@@ -44,7 +44,7 @@
 # =========================================================================
 
 mkdir -p $REG_DOCKER
-#mkdir -p /docker/$REG_DOMAIN
+mkdir -p /docker/$REG_DOMAIN:$REG_PORT
 
 env
 
