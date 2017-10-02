@@ -46,8 +46,6 @@
 mkdir -p $REG_DOCKER
 mkdir -p /docker/$REG_DOMAIN:$REG_PORT
 
-env
-
 openssl req \
   -newkey rsa:4096 -nodes -sha256 -keyout /crts/domain.key \
   -x509 -days 365 -out /crts/domain.crt
