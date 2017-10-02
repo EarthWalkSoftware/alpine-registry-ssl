@@ -36,7 +36,7 @@
 #               -v $HOME/.certs:/crts \
 #               -v /etc/docker/certs.d:/docker \
 #               -v $HOME/bin:/regbin
-#               regssl
+#     earthwalksoftware/docker-registry-ssl
 #
 # =========================================================================
 
